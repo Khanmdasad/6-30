@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "muli";
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: auto;
+  background-color: #ebf1f6;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  height: 50vh;
+  border-radius: 23px;
+  border: 3px solid #fff;
+  background: #fff;
+  box-shadow: 8px 8px 15px 0px #c5d3de;
+}
+
+.container {
+  display: inline-flex;
+  padding: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  border-radius: 13px;
+  background: #ebf1f6;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  color: #0d0c44;
+}
+.price .p1 {
+  color: #0d0c44;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 600;
+  line-height: normal;
+  letter-spacing: 0.98px;
+  text-transform: uppercase;
+}
+.price .p2 {
+  color: #0d0c44;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.category {
+  width: 161px;
+  height: 47px;
+  color: #0d0c44;
+}
+.category p {
+  color: #0d0c44;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.98px;
+  text-transform: uppercase;
+}
+.category .link {
+  color: #3a37de;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.license {
+  width: 89px;
+  height: 47px;
+}
+.license p {
+  color: #0d0c44;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.98px;
+  text-transform: uppercase;
+}
+.license .link {
+  color: #3a37de;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.btn-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+.btn-div .btn {
+  display: flex;
+  width: 288px;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: linear-gradient(272deg, #8037de 0.3%, #3a37de 100%);
+  box-shadow: 0px 9px 5px 0px rgba(58, 55, 222, 0.12);
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.btn-div .link {
+  color: #3a37de;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: underline;
+}/*# sourceMappingURL=main.css.map */
